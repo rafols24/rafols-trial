@@ -1,13 +1,26 @@
   
-import { Component, Input } from '@angular/core';
+// import { Component, Input } from '@angular/core';
+
+// @Component({
+//   selector: 'app-second',
+//   template: `<p>second works! <br><br> {{secondMessage ? secondMessage :'________'}}</p>`,
+//   styles: ['p {color:red}']
+// })
+// export class SecondComponent  {
+
+// @Input() secondMessage = "";
+ 
+// }
+
+
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-second',
-  template: `<p>second works! <br><br> {{secondMessage ? secondMessage :'________'}}</p>`,
-  styles: ['p {color:red}']
+    selector: 'app-second',
+    template: `<p>second works!</p>`,
+    styles:['p {color:red}']
 })
-export class SecondComponent  {
 
-@Input() secondMessage = "";
- 
+export class SecondComponent{
+    
 }
